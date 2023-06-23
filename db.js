@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const configDB = async () => {
     try {
-        const res = awaitmongoose.connect()
+        const res = await mongoose.connect()
         console.log('connect to db');
     } catch (error) {
 
